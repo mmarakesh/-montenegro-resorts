@@ -65,3 +65,20 @@ body {
    font-size: 30px;
    background: #f8f8f8;
   }
+  @media all and (max-width: 800px) {
+  .slideBtn {
+  margin: 0;
+  } 
+  }
+  @media all and (max-width: 500px) {
+  h1 {
+  text-align: center;
+  }
+  img {
+    width: 300px;
+    height: 200px;
+  }
+  .slideBtn {
+    margin: 0;
+  }
+   }

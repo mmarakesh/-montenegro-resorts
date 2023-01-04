@@ -22,10 +22,10 @@ setCity(newCity);
 return(
   <div>
     <div className='container'>
-    <h1>Top {cities.length} resort towns in Montenegro</h1>
+    <h1>Top {city.length} resort towns in Montenegro</h1>
     </div>
     
-    {cities.map(item => {
+    {city.map(item => {
       const{id, cityName, description, image, showMore} = item;
 
      return(
