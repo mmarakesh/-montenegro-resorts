@@ -32,7 +32,7 @@ function Slides({image}) {
             </div>
 
             <div>
-            <img src={image[photo]} width='700px' height='500px'/>
+            <img src={image[photo]} width='700px' height='500px' alt='city'/>
             </div>
 
            <div className='slid'>
